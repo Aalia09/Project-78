@@ -21,14 +21,14 @@
     
 </html>
 <script>
-var names = ["Jawad Khatib", "Hasna Khatib", "Afrah Khatib"];
+var names = ["My Family", "Jawad Khatib", "Hasna Khatib", "Afrah Khatib"];
     var images = ["FAMILY.jpg" , "dad.jpg" , "mom.jpg" , "Elder sister.jpg"];
     var i = 0;
 function nextslide(){
-  document.getElementById("album").src=nextslide[i];
+  document.getElementById("album").src=images[i];
   document.getElementById("name").innerHTML=names[i];
   i++;
-  if (i == 3)
+  if (i == 4)
     {
       i=0;
     }
